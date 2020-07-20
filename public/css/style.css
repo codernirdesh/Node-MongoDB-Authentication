@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffa7a7;
+}
+
+.register .register-form label {
+  display: block;
+  padding: 2px 0 2px 0;
+}
+
+.register .register-form .fe {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register .register-form .fe input {
+  padding: 10px;
+}
+
+.register .register-form .fe .submit {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: #ffffff;
+  background-color: #48c50d;
+}
+
+.success-container .image-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.success-container .image-wrapper img {
+  width: 50%;
+}
+
+.success-container .image-wrapper a {
+  text-decoration: none;
+  padding: 12px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #15a808;
+}
+/*# sourceMappingURL=style.css.map */

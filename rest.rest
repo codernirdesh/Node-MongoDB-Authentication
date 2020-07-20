@@ -1,0 +1,28 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "name":"Nirdesh Pokharel",
+    "email":"nirdeshpokhrel29@gmail.com",
+    "password":"gdfbgfbbghbghbjhb"
+}
+###
+POST http://localhost:3000/register-submit
+Content-Type: application/json
+
+{
+    "name":"Nirdesh",
+    "email":"43434aaa3hpokhrel29@gmail.com",
+    "password":"gdfbgfbbghbghbjhb"
+}
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email":"nirdesh123@baigundhura.info",
+    "password":"Software123!@#"
+}
+###
+
+GET http://localhost:3000/get-users/
